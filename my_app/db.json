@@ -1,19 +1,120 @@
 {
-  "posts": [
+  "jeans": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "501 Original",
+      "price": "$108.00",
+      "image": "add image",
+      "fabric": "100% cotton",
+      "size": [
+        "30x30",
+        "30x32",
+        "31x30",
+        "31x32",
+        "32x30",
+        "32x32",
+        "34x30",
+        "34x32"
+      ],
+      "color": [
+        "light wash",
+        "medium wash",
+        "dark wash",
+        "black"
+      ]
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "name": "568 Stay Loose",
+      "price": "$98.00",
+      "image": "add image",
+      "fabric": "100% cotton",
+      "size": [
+        "30x30",
+        "30x32",
+        "31x30",
+        "31x32",
+        "32x30",
+        "32x32",
+        "34x30",
+        "34x32"
+      ],
+      "color": [
+        "light wash",
+        "medium wash",
+        "dark wash",
+        "black"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "512 Slim Taper",
+      "price": "$98.00",
+      "image": "add image",
+      "fabric": "98% elastane, 2% cotton",
+      "size": [
+        "30x30",
+        "30x32",
+        "31x30",
+        "31x32",
+        "32x30",
+        "32x32",
+        "34x30",
+        "34x32"
+      ],
+      "color": [
+        "light wash",
+        "medium wash",
+        "dark wash",
+        "black"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "514 Straight",
+      "price": "$89.50",
+      "image": "add image",
+      "fabric": "98% elastane, 2% cotton",
+      "size": [
+        "30x30",
+        "30x32",
+        "31x30",
+        "31x32",
+        "32x30",
+        "32x32",
+        "34x30",
+        "34x32"
+      ],
+      "color": [
+        "light wash",
+        "medium wash",
+        "dark wash",
+        "black"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "551 Z Authentic Straight",
+      "price": "$108",
+      "image": "add image",
+      "fabric": "100% cotton",
+      "size": [
+        "30x30",
+        "30x32",
+        "31x30",
+        "31x32",
+        "32x30",
+        "32x32",
+        "34x30",
+        "34x32"
+      ],
+      "color": [
+        "light wash",
+        "medium wash",
+        "dark wash",
+        "black"
+      ]
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    
+  ]
 }
