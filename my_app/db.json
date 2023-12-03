@@ -4,7 +4,7 @@
       "id": 1,
       "name": "501 Original",
       "price": "$108.00",
-      "image": "add image",
+      "image": "Phase_2_Project_Jeans/my_app/public/Screen Shot 2023-12-01 at 4.11.32 PM.png",
       "fabric": "100% cotton",
       "size": [
         "30x30",
@@ -27,7 +27,7 @@
       "id": 2,
       "name": "568 Stay Loose",
       "price": "$98.00",
-      "image": "add image",
+      "image": "Phase_2_Project_Jeans/my_app/public/Screen Shot 2023-12-01 at 4.25.36 PM.png",
       "fabric": "100% cotton",
       "size": [
         "30x30",
@@ -50,7 +50,7 @@
       "id": 3,
       "name": "512 Slim Taper",
       "price": "$98.00",
-      "image": "add image",
+      "image": "Phase_2_Project_Jeans/my_app/public/Screen Shot 2023-12-01 at 4.09.48 PM.png",
       "fabric": "98% elastane, 2% cotton",
       "size": [
         "30x30",
@@ -73,7 +73,7 @@
       "id": 4,
       "name": "514 Straight",
       "price": "$89.50",
-      "image": "add image",
+      "image": "Phase_2_Project_Jeans/my_app/public/Screen Shot 2023-12-01 at 4.13.38 PM.png",
       "fabric": "98% elastane, 2% cotton",
       "size": [
         "30x30",
@@ -96,7 +96,7 @@
       "id": 5,
       "name": "551 Z Authentic Straight",
       "price": "$108",
-      "image": "add image",
+      "image": "Phase_2_Project_Jeans/my_app/public/images/Screen Shot 2023-12-01 at 4.26.41 PM.png",
       "fabric": "100% cotton",
       "size": [
         "30x30",
