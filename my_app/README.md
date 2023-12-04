@@ -26,7 +26,7 @@ Search through a gallery of Levi's, click on image to see additional info such a
 <img width="533" alt="Screen Shot 2023-12-04 at 10 31 05 AM" src="https://github.com/DorahelyS/Phase_2_Project_Jeans/assets/142290529/055c3398-be4b-4560-b851-c35df1949f74">
 
 # DATA
-<img width="377" alt="Screen Shot 2023-12-04 at 1 40 02 PM" src="https://github.com/DorahelyS/Phase_2_Project_Jeans/assets/142290529/99e33881-9470-4c75-afac-a851c9a41f6b">
+<img width="1036" alt="Screen Shot 2023-12-04 at 10 02 42 AM" src="https://github.com/DorahelyS/Phase_2_Project_Jeans/assets/142290529/50681849-0ea7-44eb-b999-8ba561fca171">
 <img width="1048" alt="Screen Shot 2023-12-04 at 10 03 00 AM" src="https://github.com/DorahelyS/Phase_2_Project_Jeans/assets/142290529/8a90f3cf-3d11-421e-8365-4ece960f9e97">
 <img width="1030" alt="Screen Shot 2023-12-04 at 10 03 14 AM" src="https://github.com/DorahelyS/Phase_2_Project_Jeans/assets/142290529/52016f1c-4796-49dc-b253-9cd999058c1c">
 
