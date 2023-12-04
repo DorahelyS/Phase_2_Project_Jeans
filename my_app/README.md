@@ -14,7 +14,7 @@ Jeans is a direct to consumer website to help sell the most authentic Levi's jea
 •Once the page loads, the user can vist the home page to be redirected back to the main page
 •User can use the form to submit an unwanted pair of Levi's
 •User can navigate through the Levi's list to search for a new pair by name 
-•User can click on jean and directed to a product details page where color and size will be diplayed
+•User can click on a jean and will be directed to a product details page where color and size will be displayed
 
 # MVP
 
