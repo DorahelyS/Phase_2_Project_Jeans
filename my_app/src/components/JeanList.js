@@ -1,9 +1,13 @@
 import React from "react";
 import JeanCard from "./JeanCard";
 
-function JeanList() {
+function JeanList({jeans}) {
   return (
-    <ul className="cards">{/* render JeanCards components in here */}</ul>
+    <ul className="cards">{/* render JeanCards components in here */}
+      {jeans.map((jean)=>
+      <JeanCard key={jean.id} jean={jean} />
+      )}
+    </ul>
   );
 }
 

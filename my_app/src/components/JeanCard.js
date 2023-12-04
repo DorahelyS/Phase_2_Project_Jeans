@@ -1,17 +1,17 @@
 import React from "react";
 
-function JeanCard() {
+function JeanCard({jean}) {
   return (
-    <li className="card">
-      <img src={"https://via.placeholder.com/400"} alt={"jean name"} />
-      <h4>{"jean name"}</h4>
-      <p>Price: {"jean price"}</p>
+    <ul className="card">
+      <img src={jean.image} alt={jean.name} />
+      <h4>{jean.name}</h4>
+      <p>Price: {jean.price}</p>
       {true ? (
         <button className="primary">In Stock</button>
       ) : (
         <button>Out of Stock</button>
       )}
-    </li>
+    </ul>
   );
 }
 
