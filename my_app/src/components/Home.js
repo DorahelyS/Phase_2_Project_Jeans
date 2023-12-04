@@ -4,7 +4,7 @@ import NewJeanForm from './NewJeanForm.js'
 import JeanList from './JeanList.js';
 
 function Home() {
-  const url = "http://localhost:3000/jeans"
+  const url = "http://localhost:4000/jeans"
   const [jeans, setJeans] = useState([])
 
   useEffect(() => {
