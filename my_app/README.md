@@ -21,13 +21,9 @@ Jeans is a direct to consumer website to help sell the most authentic Levi's jea
 Search through a gallery of Levi's, click on image to see additional info such a color and size and will then have option to buy. Submit Levi's jeans to be donated by using the form. Can navigate throughout home and about page as well as product details.
 
 # WIREFRAME
-https://cdn.discordapp.com/attachments/1180239130127519844/1180888629036458044/Untitled.png?ex=657f0f3d&is=656c9a3d&hm=68ef3add10fc7695681c656d9ac0ccf39d4bceb4e58f08ad4ee0a3d29c17cb58&
-
-
-https://cdn.discordapp.com/attachments/1180239130127519844/1180888629334261810/Jean_product_details.png?ex=657f0f3d&is=656c9a3d&hm=e0fb495aba534b04884aad27cd86da32a9394b3a3f7a2388198ba5bb0d2fa3f2&
-
-
-https://cdn.discordapp.com/attachments/1180239130127519844/1180888629573341184/Untitled.png?ex=657f0f3d&is=656c9a3d&hm=75541e16a797f91cdef7f3c5d9a2f9ecf7ef7a26c091fc3e6749263885f28d6f&
+<img width="578" alt="Screen Shot 2023-12-04 at 10 30 33 AM" src="https://github.com/DorahelyS/Phase_2_Project_Jeans/assets/142290529/4289bd7f-aa5f-45d8-b840-eaf52311b2cc">
+<img width="524" alt="Screen Shot 2023-12-04 at 10 30 52 AM" src="https://github.com/DorahelyS/Phase_2_Project_Jeans/assets/142290529/1d3475c4-6edd-4943-9451-e1122ba4dcf3">
+<img width="533" alt="Screen Shot 2023-12-04 at 10 31 05 AM" src="https://github.com/DorahelyS/Phase_2_Project_Jeans/assets/142290529/055c3398-be4b-4560-b851-c35df1949f74">
 
 # DATA
 <img width="1036" alt="Screen Shot 2023-12-04 at 10 02 42 AM" src="https://github.com/DorahelyS/Phase_2_Project_Jeans/assets/142290529/c88f1f7b-3d4b-4243-9ff0-9fcc85b80d30">
