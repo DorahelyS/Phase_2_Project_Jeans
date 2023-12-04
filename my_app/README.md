@@ -21,7 +21,7 @@ Jeans is a direct to consumer website to help sell the most authentic Levi's jea
 Search through a gallery of Levi's, click on image to see additional info such a color and size and will then have option to buy. Submit Levi's jeans to be donated by using the form. Can navigate throughout home and about page as well as product details.
 
 # WIREFRAME
-<img width="578" alt="Screen Shot 2023-12-04 at 10 30 33 AM" src="https://github.com/DorahelyS/Phase_2_Project_Jeans/assets/142290529/4289bd7f-aa5f-45d8-b840-eaf52311b2cc">
+<img width="377" alt="Screen Shot 2023-12-04 at 1 40 02 PM" src="https://github.com/DorahelyS/Phase_2_Project_Jeans/assets/142290529/99e33881-9470-4c75-afac-a851c9a41f6b">
 <img width="524" alt="Screen Shot 2023-12-04 at 10 30 52 AM" src="https://github.com/DorahelyS/Phase_2_Project_Jeans/assets/142290529/1d3475c4-6edd-4943-9451-e1122ba4dcf3">
 <img width="533" alt="Screen Shot 2023-12-04 at 10 31 05 AM" src="https://github.com/DorahelyS/Phase_2_Project_Jeans/assets/142290529/055c3398-be4b-4560-b851-c35df1949f74">
 
@@ -34,7 +34,7 @@ Search through a gallery of Levi's, click on image to see additional info such a
 <img width="568" alt="Screen Shot 2023-12-04 at 10 05 01 AM" src="https://github.com/DorahelyS/Phase_2_Project_Jeans/assets/142290529/78434956-20e5-4e3a-9282-f4e541eeadcc">
 
 # REACT ROUTES
-<img width="566" alt="Screen Shot 2023-12-04 at 10 05 28 AM" src="https://github.com/DorahelyS/Phase_2_Project_Jeans/assets/142290529/530cd9ea-7b77-493d-ac9b-a0f167d51ffb">
+<img width="566" alt="Screen Shot 2023-12-04 at 1 41 18 PM" src="https://github.com/DorahelyS/Phase_2_Project_Jeans/assets/142290529/f5bc6430-7189-43c2-935e-622158e81c4a">
 
 # COMPONENT DIAGRAM / TREE
 <img width="470" alt="Screen Shot 2023-12-04 at 10 06 39 AM" src="https://github.com/DorahelyS/Phase_2_Project_Jeans/assets/142290529/79402390-5552-4d63-8297-2dbef0d49d41">
