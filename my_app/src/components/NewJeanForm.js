@@ -1,6 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 
 function NewJeanForm() {
+const formOutline = {
+  name: "",
+  price: 0,
+  image: ""
+}
+
+const [form, setForm] = useState(formOutline)
+
+
+
+
   return (
     <div className="new-Jean-form">
       <h2>Add New Jean to Donate</h2>
