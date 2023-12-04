@@ -16,13 +16,17 @@ function Home() {
     .then (r=>r.json())
     .then (data=>setJeans(data))
   }
+
+  function addNewJean(newJean){
+    setJeans([...jeans, newJean])
+  }
  
 
   return (
     <div className="Home">
       <div> 
         <h1> Jeansy </h1>
-        <NewJeanForm />
+        <NewJeanForm url={url} addNewJean={addNewJean} />
         <Search />
         <JeanList jeans={jeans}/>
       </div>
