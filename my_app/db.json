@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "501 Original",
-      "price": "$108.00",
+      "price": "$48.00",
       "image": "https://lsco.scene7.com/is/image/lsco/005010536-dynamic1-pdp?fmt=avif&qlt=40&resMode=bisharp&fit=crop,0&op_usm=0.6,0.6,8&wid=480&hei=640",
       "fabric": "100% cotton",
       "size": [
@@ -26,7 +26,7 @@
     {
       "id": 2,
       "name": "568 Stay Loose",
-      "price": "$98.00",
+      "price": "$38.00",
       "image": "https://lsco.scene7.com/is/image/lsco/290370050-dynamic1-pdp?fmt=avif&qlt=40&resMode=bisharp&fit=crop,0&op_usm=0.6,0.6,8&wid=480&hei=640",
       "fabric": "100% cotton",
       "size": [
@@ -49,7 +49,7 @@
     {
       "id": 3,
       "name": "512 Slim Taper",
-      "price": "$98.00",
+      "price": "$38.00",
       "image": "https://lsco.scene7.com/is/image/lsco/288331183-dynamic1-pdp-lse?fmt=avif&qlt=40&resMode=bisharp&fit=crop,0&op_usm=0.6,0.6,8&wid=660&hei=726",
       "fabric": "98% elastane, 2% cotton",
       "size": [
@@ -72,7 +72,7 @@
     {
       "id": 4,
       "name": "514 Straight",
-      "price": "$89.50",
+      "price": "$29.50",
       "image": "https://lsco.scene7.com/is/image/lsco/005141718-dynamic1-pdp?fmt=avif&qlt=40&resMode=bisharp&fit=crop,0&op_usm=0.6,0.6,8&wid=480&hei=640",
       "fabric": "98% elastane, 2% cotton",
       "size": [
@@ -95,7 +95,7 @@
     {
       "id": 5,
       "name": "551 Z Authentic Straight",
-      "price": "$108",
+      "price": "$38.00",
       "image": "https://lsco.scene7.com/is/image/lsco/247670042-front-pdp-lse?fmt=avif&qlt=40&resMode=bisharp&fit=crop,0&op_usm=0.6,0.6,8&wid=480&hei=640&cropN=0,0.35,1,0.65",
       "fabric": "100% cotton",
       "size": [
