@@ -1,4 +1,6 @@
-
+body {
+  background-color: yellow;
+}
 
 h1 {
   font-size: 4em;
@@ -26,16 +28,48 @@ h2{
   justify-content: center;
 }
 
-.card {
-  margin: 1rem;
+.cards {
+  list-style: none;
+  display: flex;
   flex-wrap: wrap;
 }
 
+.card {
+  background-color: rgb(181, 110, 110);
+  margin: 1rem;
+  box-shadow: 0 0 7px 0 #ddd;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 300px;
+}
+
 .card button {
-  margin-bottom: 1rem
+  display: flex;
+  margin-bottom: 1rem;
+  padding-right: 3%;
+  width: 50%;
+  align-items: center;
 }
 
 .card img {
-  width: 50%;
+  padding-right: 12%;
+  padding-top: 5%;
+  top: 0;
+  left: 0;
+  max-width: 300px;
+  max-height: 225px;
+  width: auto;
+  height: auto;
 }
+
+.card h4 {
+  padding-right: 12%;
+}
+
+.card p {
+  padding-right: 12%;
+}
+
+
+
 
