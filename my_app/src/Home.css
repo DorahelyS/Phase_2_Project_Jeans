@@ -15,7 +15,6 @@ h2{
   text-align: center;
   margin: auto;
   max-width: 1200px
-  color
 }
 
 .new-jean-form {
@@ -124,4 +123,12 @@ h2{
   display: flex;
   font-size: medium;
   justify-content: center;
+}
+
+.About {
+  text-align: center;
+  margin: auto;
+  max-width: 1200px;
+  color: white;
+  font-size: 150%
 }
