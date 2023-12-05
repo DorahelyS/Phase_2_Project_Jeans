@@ -1,35 +1,12 @@
 {
   "jeans": [
     {
-      "id": 1,
-      "name": "501 Original",
-      "price": 48,
-      "image": "https://lsco.scene7.com/is/image/lsco/005010536-dynamic1-pdp?fmt=avif&qlt=40&resMode=bisharp&fit=crop,0&op_usm=0.6,0.6,8&wid=480&hei=640",
-      "fabric": "100% cotton",
-      "size": [
-        "30x30",
-        "30x32",
-        "31x30",
-        "31x32",
-        "32x30",
-        "32x32",
-        "34x30",
-        "34x32"
-      ],
-      "color": [
-        "light wash",
-        "medium wash",
-        "dark wash",
-        "black"
-      ]
-    },
-    {
       "id": 3,
       "name": "512 Slim Taper",
-      "price": 38,
+      "price": 38.00,
       "image": "https://lsco.scene7.com/is/image/lsco/288331183-dynamic1-pdp-lse?fmt=avif&qlt=40&resMode=bisharp&fit=crop,0&op_usm=0.6,0.6,8&wid=660&hei=726",
       "fabric": "98% elastane, 2% cotton",
-      "sizes": [
+      "size": [
         "30x30",
         "30x32",
         "31x30",
@@ -49,7 +26,7 @@
     {
       "id": 4,
       "name": "514 Straight",
-      "price": 29.5,
+      "price": 29.50,
       "image": "https://lsco.scene7.com/is/image/lsco/005141718-dynamic1-pdp?fmt=avif&qlt=40&resMode=bisharp&fit=crop,0&op_usm=0.6,0.6,8&wid=480&hei=640",
       "fabric": "98% elastane, 2% cotton",
       "size": [
@@ -72,7 +49,7 @@
     {
       "id": 5,
       "name": "551 Z Authentic Straight",
-      "price": 38,
+      "price": 38.00,
       "image": "https://lsco.scene7.com/is/image/lsco/247670042-front-pdp-lse?fmt=avif&qlt=40&resMode=bisharp&fit=crop,0&op_usm=0.6,0.6,8&wid=480&hei=640&cropN=0,0.35,1,0.65",
       "fabric": "100% cotton",
       "size": [
@@ -91,18 +68,6 @@
         "dark wash",
         "black"
       ]
-    },
-    {
-      "name": "Nick",
-      "price": 58.56,
-      "image": "https://hips.hearstapps.com/hmg-prod/images/190208-delish-ramen-horizontal-093-1550096715.jpg?crop=0.8893333333333334xw:1xh;center,top&resize=1200:*",
-      "size": [
-        "5x10, 10x12"
-      ],
-      "color": [
-        "green, blue"
-      ],
-      "id": 6
     }
   ]
 }

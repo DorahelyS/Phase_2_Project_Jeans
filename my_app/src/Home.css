@@ -1,19 +1,19 @@
 body {
-  background-color: lightskyblue;
+  background: url("https://cdn.media.amplience.net/s/hobbylobby/1881655-80967386-IMGSET?fmt=webp&w=519&h=519&sm=mc");
 }
 
 h1 {
   font-size: 4em;
-  color: #6F8FAF;
+  color: white;
 }
 
 h2{
   color: black;
 }
 
-.App {
+.Home {
   text-align: center;
-  margin: 0 auto;
+  margin: auto;
   max-width: 1200px
 }
 
@@ -29,18 +29,20 @@ h2{
 }
 
 .cards {
+  margin: auto;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
 }
 
 .card {
-  background-color: gray;
-  margin: 1rem;
+  backdrop-filter: blur(10px);
+  margin: auto;
   box-shadow: 0 0 7px 0 #ddd;
   border-radius: 5px;
   border: 1px solid #ccc;
   width: 300px;
+  color: white 
 }
 
 .card button {
@@ -76,4 +78,53 @@ h2{
   padding-top: 5%
 }
 
+.nav-link {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 60px;
+  padding: 5px;
+  margin: 0 6px 6px;
+  background: blue;
+  text-decoration: none;
+  text-align: center;
+  font-size: min(10vw, 15px);
+  color: white;
+}
 
+.active {
+  color: red;
+}
+
+.searchbar {
+  color: white;
+  padding-bottom: 5%;
+}
+
+.link{
+  color: white;
+}
+
+.Description{
+  color: white;
+}
+
+.sizes{
+  box-sizing: border-box;
+  width: 60px;
+  padding: 5px;
+  margin: 0 6px 6px;
+  text-align: center;
+  font-size: min(10vw, 15px);
+  color: white;
+}
+
+
+.color{
+  box-sizing: border-box;
+  width: 60px;
+  padding: 5px;
+  margin: 0 6px 6px;
+  text-align: center;
+  font-size: min(10vw, 15px);
+  color: white;
+}

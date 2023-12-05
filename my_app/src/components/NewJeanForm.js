@@ -49,7 +49,7 @@ const handleChange = (e) => {
       <h2>Add New Jean</h2>
       <form onSubmit = {handleSubmit}>
         <input onChange={handleChange} value = {form.name} name = "name" placeholder = "Name"/>
-        <input onChange={handleChange} value = {form.price} name = "price"  placeholder = "Price"/>
+        <input onChange={handleChange} value = {form.price} name = "price"  step = "0.01" placeholder = "Price"/>
         <input onChange={handleChange} value = {form.image} name = "image"  placeholder = "URL"/>
         <input onChange={handleChange} value = {form.sizes} name="sizes" placeholder="Size" />
         <input onChange={handleChange} value = {form.colors} name="colors" placeholder="Color" />

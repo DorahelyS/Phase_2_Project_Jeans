@@ -24,12 +24,12 @@ function JeanCard({jean, url, removeJean}) {
       <img src={jean.image} alt={jean.name} />
       <h4>{jean.name}</h4>
       <p>Price: {jean.price}</p>
-      <button className={`primary ${isInStock ? "active" : ""}`}
+      <button className="primary"
       onClick={updateStockBtn}>
         {isInStock ? "In Stock" : "Out of Stock"}
       </button>
       <p>
-        <Link to={`/jean/${jean.id}`}>View Description</Link>
+        <Link className ="link" to={`/jean/${jean.id}`}>View Description</Link>
       </p>
       <button onClick={handleDelete}>Delete</button>
     </ul>
