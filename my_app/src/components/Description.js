@@ -26,16 +26,16 @@ function Description() {
       <img name="description-image" src={jean.image}></img>
       <h4>{jean.name}</h4>
       <p>{jean.price}</p>
-      <p className="sizes">Sizes:
+      <div className="sizes">Sizes:
       {jean.size.map((size, index) => (
-        <span key={index}>{size}</span>
+        <ul key={index}>{size}</ul> 
       ))}
-      </p>
-      <p className="color">Color: 
+      </div>
+      <div className="color">Color: 
       {jean.color.map((color, index) => (
-        <span key={index}>{color}</span>
+        <ul key={index}>{color}</ul>
       ))}
-      </p>
+      </div>
     </ul>
     </div>
   );

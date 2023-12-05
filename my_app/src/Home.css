@@ -15,6 +15,7 @@ h2{
   text-align: center;
   margin: auto;
   max-width: 1200px
+  color
 }
 
 .new-jean-form {
@@ -106,25 +107,21 @@ h2{
 
 .Description{
   color: white;
+  text-align: center;
+  margin: auto;
+  max-width: 1200px
 }
 
 .sizes{
-  box-sizing: border-box;
-  width: 60px;
-  padding: 5px;
-  margin: 0 6px 6px;
-  text-align: center;
-  font-size: min(10vw, 15px);
-  color: white;
+  display: flex;
+  font-size: medium;
+  justify-content: center;
+  margin: auto
 }
 
-
-.color{
-  box-sizing: border-box;
-  width: 60px;
-  padding: 5px;
-  margin: 0 6px 6px;
-  text-align: center;
-  font-size: min(10vw, 15px);
-  color: white;
+.color {
+  padding-top: 1%;
+  display: flex;
+  font-size: medium;
+  justify-content: center;
 }
