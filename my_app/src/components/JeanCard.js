@@ -23,7 +23,7 @@ function JeanCard({jean, url, removeJean}) {
     <ul className="card" >
       <img src={jean.image} alt={jean.name} />
       <h4>{jean.name}</h4>
-      <p>Price: {jean.price}</p>
+      <p>Price: ${jean.price.toFixed(2)} </p>
       <button className="primary"
       onClick={updateStockBtn}>
         {isInStock ? "In Stock" : "Out of Stock"}

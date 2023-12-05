@@ -25,16 +25,20 @@ function Description() {
     <ul>
       <img name="description-image" src={jean.image}></img>
       <h4>{jean.name}</h4>
-      <p>{jean.price}</p>
-      <div className="sizes">Sizes:
+      <p>Price: ${jean.price.toFixed(2)} </p>
+      <div className="sizes">Sizes: 
+      <select>
       {jean.size.map((size, index) => (
-        <ul key={index}>{size}</ul> 
+        <option  key={index} value = {size}>{size}</option> 
       ))}
+      </select>
       </div>
       <div className="color">Color: 
+      <select>
       {jean.color.map((color, index) => (
-        <ul key={index}>{color}</ul>
+        <option key={index} value={color}>{color}</option>
       ))}
+      </select>
       </div>
     </ul>
     </div>

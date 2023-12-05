@@ -68,6 +68,19 @@
         "dark wash",
         "black"
       ]
+    },
+    {
+      "name": "test",
+      "price": 112,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0HEfmOp03MKEs5PSehXLAnq3puFAC9cWcjw&usqp=CAU",
+      "size": [
+        "27x30"
+      ],
+      "color": [
+        "blue"
+      ],
+      "id": 6
     }
   ]
 }
+
