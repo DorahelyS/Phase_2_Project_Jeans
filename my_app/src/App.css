@@ -35,7 +35,7 @@ h2{
 }
 
 .card {
-  background-color: rgb(181, 110, 110);
+  background-color: gray;
   margin: 1rem;
   box-shadow: 0 0 7px 0 #ddd;
   border-radius: 5px;
@@ -44,15 +44,17 @@ h2{
 }
 
 .card button {
-  display: flex;
+  margin-left: -10%;
   margin-bottom: 1rem;
   padding-right: 3%;
   width: 50%;
-  align-items: center;
+  border-radius: 35%;
+  display: flexbox;
+  position: relative
 }
 
 .card img {
-  padding-right: 12%;
+  padding-right: 13%;
   padding-top: 5%;
   top: 0;
   left: 0;
