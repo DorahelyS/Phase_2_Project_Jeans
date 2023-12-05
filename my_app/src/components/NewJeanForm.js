@@ -3,8 +3,10 @@ import React, { useState } from "react";
 function NewJeanForm({url, addNewJean}) {
 const formOutline = {
   name: "",
-  price: 0,
-  image: ""
+  price: "",
+  image: "",
+  sizes: "",
+  colors: "",
 }
 
 const [form, setForm] = useState(formOutline)
@@ -15,8 +17,15 @@ const handleSubmit = (e) => {
     method: 'POST',
     headers: {'content-type': 'application/json'},
     body: JSON.stringify({
-      ...form,
-      price: parseFloat(form.price)
+      name: form.name,
+      price: parseFloat(form.price),
+      image: form.image,
+      size: [
+        form.sizes
+      ],
+      color: [
+        form.colors
+      ]
     })
   })
   .then(r => r.json())
@@ -42,6 +51,8 @@ const handleChange = (e) => {
         <input onChange={handleChange} value = {form.name} name = "name" placeholder = "Name"/>
         <input onChange={handleChange} value = {form.price} name = "price"  placeholder = "Price"/>
         <input onChange={handleChange} value = {form.image} name = "image"  placeholder = "URL"/>
+        <input onChange={handleChange} value = {form.sizes} name="sizes" placeholder="Size" />
+        <input onChange={handleChange} value = {form.colors} name="colors" placeholder="Color" />
         <button type="submit">Add Jean</button>
       </form>
     </div>

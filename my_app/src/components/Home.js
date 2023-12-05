@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Search from './Search.js'
 import NewJeanForm from './NewJeanForm.js'
 import JeanList from './JeanList.js';
+import NavBar from './NavBar.js';
 
 function Home() {
   const url = "http://localhost:4000/jeans"
@@ -39,6 +40,9 @@ function Home() {
 
   return (
     <div className="Home">
+      <header>
+        <NavBar />
+      </header>
       <div> 
         <h1> Jeansy </h1>
         <NewJeanForm url={url} addNewJean={addNewJean} />
