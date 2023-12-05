@@ -1,6 +1,7 @@
 import React from "react";
 
 function Search({search, updateSearch}) {
+  
   return (
     <div className="searchbar">
       <label htmlFor="search">Search Jean:</label>

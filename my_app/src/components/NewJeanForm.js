@@ -36,7 +36,7 @@ const handleChange = (e) => {
 
 
   return (
-    <div className="new-Jean-form">
+    <div className="new-jean-form">
       <h2>Add New Jean to Donate</h2>
       <form onSubmit = {handleSubmit}>
         <input onChange={handleChange} value = {form.name} name = "name" placeholder = "Name"/>

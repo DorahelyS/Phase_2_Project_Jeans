@@ -6,12 +6,36 @@ h1 {
 }
 
 h2{
-  color: #6F8FAF;
+  color: black;
 }
 
 .App {
   text-align: center;
+  margin: 0 auto;
+  max-width: 1200px
 }
 
+.new-jean-form {
+  padding: 2rem 1rem;
+  margin: 2rem 0;
+  background-color: teal;
+}
 
+.new-jean-form form {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin: 1rem;
+  flex-wrap: wrap;
+}
+
+.card button {
+  margin-bottom: 1rem
+}
+
+.card img {
+  width: 50%;
+}
 
