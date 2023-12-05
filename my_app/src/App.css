@@ -1,5 +1,5 @@
 body {
-  background-color: yellow;
+  background-color: lightskyblue;
 }
 
 h1 {
@@ -20,7 +20,7 @@ h2{
 .new-jean-form {
   padding: 2rem 1rem;
   margin: 2rem 0;
-  background-color: teal;
+  background-color: white;
 }
 
 .new-jean-form form {

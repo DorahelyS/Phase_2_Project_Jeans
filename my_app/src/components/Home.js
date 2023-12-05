@@ -27,6 +27,15 @@ function Home() {
 
   }
 
+  const removeJean = (id) => {
+    setJeans(jeans.filter(el => {
+      if (el.id === id) {
+        return false
+      } else if (el.id !== id) {
+        return true
+      }
+    }))
+  }
 
   return (
     <div className="Home">
@@ -34,7 +43,7 @@ function Home() {
         <h1> Jeansy </h1>
         <NewJeanForm url={url} addNewJean={addNewJean} />
         <Search search = {search} updateSearch = {updateSearch}/>
-        <JeanList jeans={jeans} search = {search}/>
+        <JeanList jeans={jeans} search = {search} url={url} removeJean={removeJean}/>
       </div>
     </div>
   
