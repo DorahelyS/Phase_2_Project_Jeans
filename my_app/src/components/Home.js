@@ -3,6 +3,7 @@ import Search from './Search.js'
 import NewJeanForm from './NewJeanForm.js'
 import JeanList from './JeanList.js';
 import NavBar from './NavBar.js';
+import '../Home.css'
 
 function Home() {
   const url = "http://localhost:4000/jeans"
