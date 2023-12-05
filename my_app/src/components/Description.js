@@ -23,19 +23,19 @@ function Description() {
         <NavBar />
       </header>
     <ul>
-      <img name="description-image" src={jean.image}></img>
+      <img name="description-image" src={jean.image} alt={jean.name}></img>
       <h4>{jean.name}</h4>
       <p>Price: ${jean.price.toFixed(2)} </p>
       <div className="sizes">Sizes: 
       <select>
-      {jean.size.map((size, index) => (
+      {jean.sizes.map((size, index) => (
         <option  key={index} value = {size}>{size}</option> 
       ))}
       </select>
       </div>
       <div className="color">Color: 
       <select>
-      {jean.color.map((color, index) => (
+      {jean.colors.map((color, index) => (
         <option key={index} value={color}>{color}</option>
       ))}
       </select>

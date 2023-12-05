@@ -1,12 +1,12 @@
 {
   "jeans": [
     {
-      "id": 3,
-      "name": "512 Slim Taper",
-      "price": 38,
-      "image": "https://lsco.scene7.com/is/image/lsco/288331183-dynamic1-pdp-lse?fmt=avif&qlt=40&resMode=bisharp&fit=crop,0&op_usm=0.6,0.6,8&wid=660&hei=726",
-      "fabric": "98% elastane, 2% cotton",
-      "size": [
+      "id": 1,
+      "name": "501 Original",
+      "price": 48,
+      "image": "https://lsco.scene7.com/is/image/lsco/005010536-dynamic1-pdp?fmt=avif&qlt=40&resMode=bisharp&fit=crop,0&op_usm=0.6,0.6,8&wid=480&hei=640",
+      "fabric": "100% cotton",
+      "sizes": [
         "30x30",
         "30x32",
         "31x30",
@@ -16,7 +16,53 @@
         "34x30",
         "34x32"
       ],
-      "color": [
+      "colors": [
+        "light wash",
+        "medium wash",
+        "dark wash",
+        "black"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "568 Stay Loose",
+      "price": 38,
+      "image": "https://lsco.scene7.com/is/image/lsco/290370050-dynamic1-pdp?fmt=avif&qlt=40&resMode=bisharp&fit=crop,0&op_usm=0.6,0.6,8&wid=480&hei=640",
+      "fabric": "100% cotton",
+      "sizes": [
+        "30x30",
+        "30x32",
+        "31x30",
+        "31x32",
+        "32x30",
+        "32x32",
+        "34x30",
+        "34x32"
+      ],
+      "colors": [
+        "light wash",
+        "medium wash",
+        "dark wash",
+        "black"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "512 Slim Taper",
+      "price": 38,
+      "image": "https://lsco.scene7.com/is/image/lsco/288331183-dynamic1-pdp-lse?fmt=avif&qlt=40&resMode=bisharp&fit=crop,0&op_usm=0.6,0.6,8&wid=660&hei=726",
+      "fabric": "98% elastane, 2% cotton",
+      "sizes": [
+        "30x30",
+        "30x32",
+        "31x30",
+        "31x32",
+        "32x30",
+        "32x32",
+        "34x30",
+        "34x32"
+      ],
+      "colors": [
         "light wash",
         "medium wash",
         "dark wash",
@@ -29,7 +75,7 @@
       "price": 29.5,
       "image": "https://lsco.scene7.com/is/image/lsco/005141718-dynamic1-pdp?fmt=avif&qlt=40&resMode=bisharp&fit=crop,0&op_usm=0.6,0.6,8&wid=480&hei=640",
       "fabric": "98% elastane, 2% cotton",
-      "size": [
+      "sizes": [
         "30x30",
         "30x32",
         "31x30",
@@ -39,7 +85,7 @@
         "34x30",
         "34x32"
       ],
-      "color": [
+      "colors": [
         "light wash",
         "medium wash",
         "dark wash",
@@ -52,7 +98,7 @@
       "price": 38,
       "image": "https://lsco.scene7.com/is/image/lsco/247670042-front-pdp-lse?fmt=avif&qlt=40&resMode=bisharp&fit=crop,0&op_usm=0.6,0.6,8&wid=480&hei=640&cropN=0,0.35,1,0.65",
       "fabric": "100% cotton",
-      "size": [
+      "sizes": [
         "30x30",
         "30x32",
         "31x30",
@@ -62,25 +108,12 @@
         "34x30",
         "34x32"
       ],
-      "color": [
+      "colors": [
         "light wash",
         "medium wash",
         "dark wash",
         "black"
       ]
-    },
-    {
-      "name": "test",
-      "price": 112,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0HEfmOp03MKEs5PSehXLAnq3puFAC9cWcjw&usqp=CAU",
-      "size": [
-        "27x30"
-      ],
-      "color": [
-        "blue"
-      ],
-      "id": 6
     }
   ]
 }
-
