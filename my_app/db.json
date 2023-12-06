@@ -44,6 +44,9 @@
         "medium wash",
         "dark wash",
         "black"
+      ],
+      "color": [
+        "blue "
       ]
     },
     {
@@ -120,24 +123,13 @@
       "price": 40,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQzkAlvd_RUDJktXCYooSULTWAqPGrAt1biCO_J8i9QXi-0pniMJnqPK3Bt30u3LrMdQ8&usqp=CAU",
       "sizes": [
-        "5x10"
-      ],
+        {
+          "27x30",
+      }],
       "colors": [
         "blue"
       ],
       "id": 6
-    },
-    {
-      "name": "Blue Jean",
-      "price": 40,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQzkAlvd_RUDJktXCYooSULTWAqPGrAt1biCO_J8i9QXi-0pniMJnqPK3Bt30u3LrMdQ8&usqp=CAU",
-      "sizes": [
-        "5x10 10x12"
-      ],
-      "colors": [
-        "green blue"
-      ],
-      "id": 7
     }
   ]
 }

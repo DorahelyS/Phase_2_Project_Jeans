@@ -7,8 +7,29 @@ function Description() {
   const params = useParams()
   const jeanId = params.id
 
+
+  const sizeFormOutline = {
+    sizes: ""
+  }
+  const [sizeForm, setSizeForm] = useState(sizeFormOutline)
+
+
+  const colorFormOutline = {
+    color:""
+  }
+  const[colorForm, setColorForm] = useState(colorFormOutline)
+
+  function addNewSize(newSize){
+    setJean ([...jean.sizes, newSize])
+  }
+
+  function addNewColor(newColor){
+    setJean([...jean.color, newColor])
+  }
+
+
   useEffect(() => {
-    fetch(`http://localhost:4000/jeans/${jeanId}`)
+      fetch(`http://localhost:4000/jeans/${jeanId}`)
     .then(r => r.json())
     .then(data => setJean(data))
   }, [jeanId])
@@ -16,6 +37,64 @@ function Description() {
   if(!jean.name) {
     return <h1>Loading...</h1>
   }
+
+  const handleSizeSubmit = (e) => {
+    e.preventDefault()
+    fetch(`http://localhost:4000/jeans/${jeanId}`, {
+      method: 'POST',
+      headers:{
+        "content-type": "application/json",
+      },
+      body: JSON.stringify({
+        ...jean,
+        sizes: [
+          sizeForm.sizes
+        ],
+      }),
+    })
+    .then(r => r.json())
+    .then(data => {
+      addNewSize(data)
+      setSizeForm(sizeFormOutline)
+      console.log("im adding a size")
+    })
+  }
+
+  const handleColorSubmit = (e) => {
+    e.preventDefault()
+    fetch(`http://localhost:4000/jeans/${jeanId}`, {
+      method: 'POST',
+      body: JSON.stringify({
+        ...jean,
+        color: [
+          colorForm.color
+        ],
+      }),
+      headers:{
+        "content-type": "application/json",
+      }
+    })
+    .then(r => r.json())
+    .then(data => {
+      addNewColor(data)
+      setColorForm(colorFormOutline)
+    })
+  }
+
+  const handleSizeChange = (e) => {
+    setSizeForm({
+      ...sizeForm,
+      [e.target.name]: e.target.value
+    })
+  }
+
+  const handleColorChange = (e) => {
+    setColorForm({
+      ...colorForm,
+      [e.target.name]: e.target.value
+    })
+  }
+
 
   return (
     <div className="Description">
@@ -41,6 +120,14 @@ function Description() {
       </select>
       </div>
     </ul>
+    <form onSubmit = {handleSizeSubmit} >
+      <input onChange={handleSizeChange} value={sizeForm.sizes} name = "sizes" placeholder='Enter Size'/>
+      <button type='submit'> Add Size</button>
+    </form>
+    <form onSubmit = {handleColorSubmit} >
+      <input onChange={handleColorChange} value={colorForm.color} name = "color" placeholder='Enter Color'/>
+      <button type='submit'> Add Color</button>
+      </form>
     </div>
   );
 }
