@@ -123,9 +123,8 @@
       "price": 40,
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQzkAlvd_RUDJktXCYooSULTWAqPGrAt1biCO_J8i9QXi-0pniMJnqPK3Bt30u3LrMdQ8&usqp=CAU",
       "sizes": [
-        {
-          "27x30",
-      }],
+        
+        ],
       "colors": [
         "blue"
       ],
