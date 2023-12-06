@@ -56,14 +56,7 @@
       "image": "https://lsco.scene7.com/is/image/lsco/288331183-dynamic1-pdp-lse?fmt=avif&qlt=40&resMode=bisharp&fit=crop,0&op_usm=0.6,0.6,8&wid=660&hei=726",
       "fabric": "98% elastane, 2% cotton",
       "sizes": [
-        "30x30",
-        "30x32",
-        "31x30",
-        "31x32",
-        "32x30",
-        "32x32",
-        "34x30",
-        "34x32"
+        ""
       ],
       "colors": [
         "light wash",
@@ -109,7 +102,8 @@
         "32x30",
         "32x32",
         "34x30",
-        "34x32"
+        "34x32",
+        "6x7"
       ],
       "colors": [
         "light wash",
@@ -117,18 +111,6 @@
         "dark wash",
         "black"
       ]
-    },
-    {
-      "name": "Blue Jean",
-      "price": 40,
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQzkAlvd_RUDJktXCYooSULTWAqPGrAt1biCO_J8i9QXi-0pniMJnqPK3Bt30u3LrMdQ8&usqp=CAU",
-      "sizes": [
-        
-        ],
-      "colors": [
-        "blue"
-      ],
-      "id": 6
     }
   ]
 }
