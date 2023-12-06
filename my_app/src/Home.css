@@ -73,8 +73,12 @@ h1 {
   padding-right: 12%;
 }
 
-.description img {
-  padding-top: 5%
+.description-image {
+  padding-top: 5%;
+  max-width: 1400px;
+  max-height: 1200px;
+  width: auto;
+  height: auto;
 }
 
 .nav-link {
@@ -109,6 +113,13 @@ h1 {
   margin: auto;
   max-width: 1200px
 }
+
+/* .Description img {
+  max-width: 1400px;
+  max-height: 1200px;
+  width: auto;
+  height: auto;
+} */
 
 .sizes{
   display: flex;

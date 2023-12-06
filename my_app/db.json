@@ -26,7 +26,7 @@
     {
       "id": 2,
       "name": "568 Stay Loose",
-      "price": 38,
+      "price": 38.00,
       "image": "https://lsco.scene7.com/is/image/lsco/290370050-dynamic1-pdp?fmt=avif&qlt=40&resMode=bisharp&fit=crop,0&op_usm=0.6,0.6,8&wid=480&hei=640",
       "fabric": "100% cotton",
       "sizes": [
@@ -114,6 +114,18 @@
         "dark wash",
         "black"
       ]
+    },
+    {
+      "name": "Blue Jean",
+      "price": 40,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQzkAlvd_RUDJktXCYooSULTWAqPGrAt1biCO_J8i9QXi-0pniMJnqPK3Bt30u3LrMdQ8&usqp=CAU",
+      "sizes": [
+        "5x10"
+      ],
+      "colors": [
+        "blue"
+      ],
+      "id": 6
     }
   ]
 }

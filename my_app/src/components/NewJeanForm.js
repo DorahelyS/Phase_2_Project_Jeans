@@ -20,10 +20,10 @@ const handleSubmit = (e) => {
       name: form.name,
       price: parseFloat(form.price),
       image: form.image,
-      size: [
+      sizes: [
         form.sizes
       ],
-      color: [
+      colors: [
         form.colors
       ]
     })

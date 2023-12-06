@@ -23,7 +23,7 @@ function Description() {
         <NavBar />
       </header>
     <ul>
-      <img name="description-image" src={jean.image} alt={jean.name}></img>
+      <img className="description-image" src={jean.image} alt={jean.name}></img>
       <h4>{jean.name}</h4>
       <p>Price: ${jean.price.toFixed(2)} </p>
       <div className="sizes">Sizes: 
