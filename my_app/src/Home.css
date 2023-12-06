@@ -1,3 +1,4 @@
+
 body {
   background: url("https://cdn.media.amplience.net/s/hobbylobby/1881655-80967386-IMGSET?fmt=webp&w=519&h=519&sm=mc");
 }
@@ -76,9 +77,9 @@ h1 {
 .description-image {
   padding-top: 5%;
   max-width: 1400px;
-  max-height: 1200px;
+  max-height: 1400px;
   width: auto;
-  height: auto;
+  height: auto;;
 }
 
 .nav-link {
@@ -111,15 +112,8 @@ h1 {
   color: white;
   text-align: center;
   margin: auto;
-  max-width: 1200px
+  max-width: auto
 }
-
-/* .Description img {
-  max-width: 1400px;
-  max-height: 1200px;
-  width: auto;
-  height: auto;
-} */
 
 .sizes{
   display: flex;
